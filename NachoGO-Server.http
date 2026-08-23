@@ -1,6 +1,6 @@
 @NachoGO_Server_HostAddress = http://localhost:5191
 
-GET {{NachoGO_Server_HostAddress}}/weatherforecast/
+GET {{NachoGO_Server_HostAddress}}/api/GetData
 Accept: application/json
 
 ###
