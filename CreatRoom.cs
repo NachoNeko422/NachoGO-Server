@@ -2,6 +2,7 @@
 {
     public class CreatRoom
     {
+        //目前CreatRoom类只有生成房间号和添加数据的功能
         public string RoomID { get; set; }
         public string[] Name { get; set; } = new string[10];
         public string[] PlayerID { get; set; } = new string[10];
@@ -14,6 +15,8 @@
 
             RoomID = randomNumber;
         }
+
+
 
         int status; //0为成功 1为失败
         public int AddData(string[] array, string data)
